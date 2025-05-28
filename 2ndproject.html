@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Code Editor (JQuery)</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e6e3d5;
+      color: #fff;
+    }
+
+    .container {
+      background-color: #043a33;
+      padding: 2rem;
+      border-radius: 10px;
+      margin: 2rem;
+    }
+
+    .free-badge {
+      background-color: #469a65;
+      padding: 0.2rem 0.6rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .details {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .details span {
+      font-size: 1rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .skill {
+      background-color: #1f534e;
+      padding: 0.3rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+
+    .steps {
+      display: flex;
+      justify-content: space-around;
+      background-color: #dceac4;
+      padding: 2rem 1rem;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .step {
+      background-color: #276f63;
+      color: #fff;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .step h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      background-color: #b5e7a0;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .lego {
+      width: 40px;
+      height: 40px;
+      background-color: gold;
+      box-shadow: inset 0 -4px #c89f00;
+      border-radius: 6px;
+    }
+
+    .btn {
+      background-color: #043a33;
+      color: #fff;
+      padding: 0.8rem 1.4rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #065e4f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="free-badge">Free</div>
+    <h1>Online Code Editor (JQuery)</h1>
+
+    <div class="details">
+      <span>🟢 Beginner</span>
+      <span>⏱️ 20 hours</span>
+    </div>
+
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JQuery</div>
+      <div class="skill">Web development</div>
+      <div class="skill">Website hosting</div>
+    </div>
+  </div>
+
+  <div class="steps">
+    <div class="step">
+      <h2>1</h2>
+      <p>Create the structural aspect of a code editor using HTML, CSS.</p>
+    </div>
+    <div class="step">
+      <h2>2</h2>
+      <p>Implementation of core functionalities and other small features using JQuery.</p>
+    </div>
+    <div class="step">
+      <h2>3</h2>
+      <p>Publish to GitHub and host your deployed code editor.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="lego"></div>
+    <a href="#" class="btn">View the Project</a>
+  </div>
+</body>
+</html>
